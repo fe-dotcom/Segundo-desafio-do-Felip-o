@@ -23,8 +23,8 @@ function calcularSaldoVitoria(vitoria, derrota) {
       } else if (saldoVitorias >= 101) {    
         nivel = "Imortal";
       }
-      
-      console.log("Saldo: " + saldoVitorias + " | Nível: " + nivel);
+      console.log(`"O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`)
     }
   }
   
+  console.log(`"O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`)
